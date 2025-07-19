@@ -4,8 +4,6 @@ import jakarta.persistence.*;
 
 @Data
 @Entity
-
-
 @Table(name = "cart_items")
 public class CartItem {
     @Id
