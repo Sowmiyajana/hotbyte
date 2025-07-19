@@ -2,6 +2,9 @@ package com.example.demo.model;
 import lombok.Data;
 import jakarta.persistence.*;
 
+import java.time.LocalDateTime;
+import java.util.List;
+
 @Data
 @Entity
 @Table(name = "orders")
